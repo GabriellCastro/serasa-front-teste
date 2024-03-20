@@ -153,6 +153,7 @@ const Feedback: FC = () => {
           color={"brand.text.100"}
           _hover={{ bg: "brand.primary.900" }}
           onClick={handleSendFeedback}
+          mb={20}
         >
           Enviar avaliação
         </Button>
